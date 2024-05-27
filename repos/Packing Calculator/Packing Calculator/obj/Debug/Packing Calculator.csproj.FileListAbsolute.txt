@@ -1,0 +1,16 @@
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\App.g.cs
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MainWindow.baml
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\Styles.baml
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\Packing_Calculator.Properties.Resources.resources
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\Packing Calculator.csproj.GenerateResource.cache
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\Packing Calculator.csproj.CoreCompileInputs.cache
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MWI Packing Calculator_MarkupCompile.cache
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MWI Packing Calculator_MarkupCompile.lref
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\bin\Debug\MWI Packing Calculator.exe.config
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\bin\Debug\MWI Packing Calculator.exe
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\bin\Debug\MWI Packing Calculator.pdb
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MWI Packing Calculator.g.resources
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MWI Packing Calculator.exe
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\MWI Packing Calculator.pdb
+C:\Users\jpomeroy\source\repos\Packing Calculator\Packing Calculator\obj\Debug\Packing Calculator.csprojAssemblyReference.cache

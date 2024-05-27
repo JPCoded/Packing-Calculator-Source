@@ -1,0 +1,146 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Packing_Calculator">
+
+    <!--  Base look for the Entry Boxes  -->
+    <Style x:Key="EntryBoxes" TargetType="TextBox">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="MaxLines" Value="1" />
+        <Setter Property="TextWrapping" Value="NoWrap" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Text" Value="1" />
+        <Setter Property="Height" Value="30" />
+        <Setter Property="Width" Value="90" />
+    </Style>
+
+    <!--  Extended look for Packers Entry Box  -->
+    <Style
+        x:Key="PackersEntry"
+        BasedOn="{StaticResource EntryBoxes}"
+        TargetType="TextBox">
+        <Setter Property="Width" Value="50" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <!--  Extended look for the Grey Entry boxes  -->
+    <Style
+        x:Key="GreyEntry"
+        BasedOn="{StaticResource EntryBoxes}"
+        TargetType="TextBox">
+        <Setter Property="Background" Value="#FFC7C7C7" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="IsReadOnly" Value="True" />
+    </Style>
+
+    <!--  Basic Look for Labels  -->
+    <Style x:Key="Labels" TargetType="Label">
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Padding" Value="0,5,5,5" />
+    </Style>
+
+    <!--  Basic look for the Completion Time Labels  -->
+    <Style x:Key="CompletionLabels" TargetType="Label">
+        <Setter Property="Height" Value="28" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Content" Value="" />
+    </Style>
+
+    <!--  Basic look for the Checkboxes  -->
+    <Style x:Key="CheckBoxes" TargetType="CheckBox">
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="14" />
+    </Style>
+
+    <!--  Extended style for Checkboxes, Controls what the text says when Rounded Time is clicked  -->
+    <Style
+        x:Key="RoundTime"
+        BasedOn="{StaticResource CheckBoxes}"
+        TargetType="CheckBox">
+        <Setter Property="IsChecked" Value="True" />
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Content" Value="Round Time" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Content" Value="Unround Time" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--  Extended style for Checkboxes, Controls what the text says when 1st Break is clicked  -->
+    <Style
+        x:Key="BreakOne"
+        BasedOn="{StaticResource CheckBoxes}"
+        TargetType="CheckBox">
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Content" Value="1st Break (-15m)" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Content" Value="1st Break (+15m)" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--  Extended style for Checkboxes, Controls what the text says when 2nd Break is clicked  -->
+    <Style
+        x:Key="BreakTwo"
+        BasedOn="{StaticResource CheckBoxes}"
+        TargetType="CheckBox">
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Content" Value="2nd Break (-15m)" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Content" Value="2nd Break (+15m)" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--  Extended style for Checkboxes, Controls what the text says when Lunch is clicked  -->
+    <Style
+        x:Key="Lunch"
+        BasedOn="{StaticResource CheckBoxes}"
+        TargetType="CheckBox">
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Content" Value="Lunch (-30m)" />
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Content" Value="Lunch (+30m)" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--  Style for the borders sourrounding the Completion Labels  -->
+    <Style x:Key="CompletionBorder" TargetType="Border">
+        <Setter Property="BorderBrush" Value="White" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Background" Value="#FFC7C7C7" />
+        <Setter Property="BorderThickness" Value="3" />
+    </Style>
+
+    <Style x:Key="StackPanels" TargetType="StackPanel">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+
+    <Style x:Key="Buttons" TargetType="Button">
+        <Setter Property="Width" Value="88" />
+        <Setter Property="Height" Value="35" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="BorderBrush" Value="Black" />
+    </Style>
+</ResourceDictionary>
